@@ -1,0 +1,9 @@
+[submodule "python/python"]
+	path = python/python
+	url = git@git.magiclab.cz:pipeline/python.git
+[submodule "pyblishdev/pyblishdev"]
+	path = pyblishdev/pyblishdev
+	url = https://github.com/jezscha/pyblishdev.git
+[submodule "avalon-magiclab/avalon-magiclab"]
+	path = avalon-magiclab/avalon-magiclab
+	url = https://github.com/jezscha/avalon-magiclab.git
