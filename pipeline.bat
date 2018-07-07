@@ -7,7 +7,7 @@ set PIPLINE_ROOT=%~dp0
 
 call python\environment_run.bat
 
-set ENV_ROOT=%VENV_ROOT%
+set ENV_ROOT=%VENV_ROOT% 
 
 
 
