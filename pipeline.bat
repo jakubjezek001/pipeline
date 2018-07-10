@@ -2,6 +2,7 @@
 REM python27 = py2 ; python36 = py3
 set PYTHON=python
 set PYTHON_ENV=win\2.7.15
+set AVALON_PYTHON_ENV=win\3.7.0
 set PY_PATH=%PYTHON%\%PYTHON_ENV%
 set MODULES_PY=py2
 set PIPLINE_ROOT=%~dp0
@@ -10,10 +11,6 @@ set python_exe=%PIPLINE_ROOT%%PY_PATH%\python.exe
 
 %python_exe% %PYTHON%\create_usr_virtualenv.py
 
-set ENV_ROOT=%VENV_ROOT%
-
-echo %ENV_ROOT%
-echo This thing
 ::set GIT_ROOT=%ENV_ROOT%pyblishdev\git\%MODULES_PY%
 
 ::set PYBLISH_QML_PATH=%GIT_ROOT%/pyblish-qml
